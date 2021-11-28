@@ -29,7 +29,7 @@ function reset () {
 
 function timer() {
     milliseconds++
-    if (milliseconds == 100){
+    if (milliseconds == 1000){
         milliseconds = 0;
         seconds++
     }
